@@ -1,0 +1,221 @@
+.app-listing-detail-page {
+    padding-inline: calc(162*100%/1940);
+    margin: 0 auto;
+  }
+  
+.app-listing-backbutton {
+    margin: 64px 0 29px 0;
+    display: block;
+}
+
+  .app-listing-main-info {
+    display: flex;
+    gap: 68px;
+    margin-bottom: 53px;
+  }
+  
+  .app-listing-image {
+      width: 52.5%;
+      height: 670px;
+  }
+  
+  .app-listing-image img {
+    width: 100%;
+    height: 100%;
+    border-radius: 14px 14px 0px 0px;
+    object-fit: cover;
+  }
+  
+  .app-listing-info {
+    flex: 1;
+    padding-top: 30px;
+  }
+  
+  .app-listing-price {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 57.6px;
+    margin-bottom: 24px;
+  }
+  
+  .app-listing-address {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .app-listing-specs {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    margin-bottom: 40px;
+  }
+  
+  .app-listing-specs span {
+    display: flex;
+    align-items: center;
+    font-weight: 400;
+    line-height: 28.8px;
+    gap: 4px;
+    font-size: 24px;
+  }
+
+  .app-listing-specs span img{
+    width: 22px;
+    height: 22px;
+  }
+  
+  .app-listing-description {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin-bottom: 50px;
+  }
+
+
+.app-listing-agent-card {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(219, 219, 219, 1);
+    border-radius: 8px;
+    padding: 24px 20px;
+    max-width: 503px;
+    background-color: #fff;
+  }
+
+  .app-listing-agent-card-top {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+  
+  .app-listing-agent-card-avatar img {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+  }
+  
+  .app-listing-agent-card-agent-info {
+    margin-left: 16px;
+  }
+  
+  .app-listing-agent-card-name {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19.2px;
+  }
+  
+  .app-listing-agent-card-title {
+    margin: 4px 0;
+    font-size: 14px;
+    color: rgba(103, 110, 118, 1);
+  }
+  
+  .app-listing-agent-card-contact-info {
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  
+  .app-listing-agent-card-email,
+  .app-listing-agent-card-phone {
+    margin: 0;
+    font-size: 14px;
+    color: #555;
+  }
+
+  
+  .app-listing-agent-info {
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-radius: 8px;
+  }
+  
+  .app-listing-agent-avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  
+  .app-listing-agent-details h3 {
+    margin: 0;
+    font-size: 18px;
+  }
+  
+  .app-listing-agent-details p {
+    margin: 5px 0 0;
+    color: #666;
+  }
+
+  .app-listing-delete-button {
+    border-radius: 8px;
+    border: 1px solid rgba(103, 110, 118, 1);
+    padding: 10px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 14.4px;
+    background-color: white;
+    color: rgba(103, 110, 118, 1);
+    margin-top: 20px;
+  }
+
+  .app-listing-similar-properties {
+    margin-bottom: 200px;
+  }
+  
+  .app-listing-similar-properties h2 {
+    font-size: 32px;
+    font-size: 500;
+    line-height: 38.4px;
+    margin-bottom: 52px;
+  }
+  
+  .property-carousel {
+    position: relative;
+    margin: 0 -20px;
+  }
+  
+  .carousel-content {
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding: 20px;
+  }
+  
+  .carousel-content::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .carousel-item {
+    flex: 0 0 auto;
+    margin-right: 20px;
+  }
+  
+  .carousel-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: transparent;
+    border: none;
+    font-size: 24px;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .carousel-button.left {
+    left: -55px;
+  }
+  
+  .carousel-button.right {
+    right: -55px;
+  }
+  

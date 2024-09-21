@@ -1,0 +1,7 @@
+.app-header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding-inline: calc(162*100%/1940);
+    border-bottom: 1px solid rgba(219, 219, 219, 1);
+}
